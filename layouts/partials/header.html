@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ .Description }}">
+
+    <!-- ========== Page Title ========== -->
+    <title>{{ .Title }}</title>
+
+    <!-- ========== Favicon Icon ========== -->
+    <link rel="shortcut icon" href="{{ .Site.BaseURL }}/assets/img/favicon.png" type="image/x-icon">
+
+    <!-- ========== Start Stylesheet ========== -->
+    <link href="{{ .Site.BaseURL }}/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="{{ .Site.BaseURL }}/assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="{{ .Site.BaseURL }}/assets/css/flaticon-set.css" rel="stylesheet" />
+    <link href="{{ .Site.BaseURL }}/assets/css/magnific-popup.css" rel="stylesheet" />
+    <link href="{{ .Site.BaseURL }}/assets/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="{{ .Site.BaseURL }}/assets/css/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="{{ .Site.BaseURL }}/assets/css/animate.css" rel="stylesheet" />
+    <link href="{{ .Site.BaseURL }}/assets/css/bootsnav.css" rel="stylesheet" />
+    <link href="{{ .Site.BaseURL }}/style.css" rel="stylesheet">
+    <link href="{{ .Site.BaseURL }}/assets/css/responsive.css" rel="stylesheet" />
+    <!-- ========== End Stylesheet ========== -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="{{ .Site.BaseURL }}/assets/js/html5/html5shiv.min.js"></script>
+      <script src="{{ .Site.BaseURL }}/assets/js/html5/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- ========== Google Fonts ========== -->
+    <link href="{{ .Site.BaseURL }}/https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="{{ .Site.BaseURL }}/https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Preloader Start -->
+    <div class="se-pre-con"></div>
+    <!-- Preloader Ends -->
+
+    <!-- Start Header Top 
+    ============================================= -->
+    <div class="top-bar-area bg-dark one-line text-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 address-info">
+                    <div class="info box">
+                        <ul>
+                            <li>Distributor Pipa PVC dan HDPE</li>
+                            <li>
+                                <i class="fas fa-map"></i> Alamat
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope-open"></i> sales@ammara.co.id
+                            </li>
+                            <li>
+                                <i class="fab fa-whatsapp"></i> 
+                                <a href="tel:081315080041">0813-1508-0041</a> 
+                            </li>
+                            <li>
+                                <i class="fas fa-phone"></i> 
+                                <a href="tel:08159230602">0815-9230-602</a> 
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Header Top -->
+
+    <!-- Header 
+    ============================================= -->
+    <header id="home">
+
+        <!-- Start Navigation -->
+        <nav class="navbar navbar-default attr-border navbar-sticky bootsnav">
+
+            <div class="container">
+
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="{{ .Site.BaseURL }}/">
+                        <img src="{{ .Site.BaseURL }}/assets/img/ammara-eka-persada-logo.png" class="logo" alt="Logo">
+                    </a>
+                </div>
+                <!-- End Header Navigation -->
+
+                {{ partial "nav" . }}
+            </div>
+
+        </nav>
+        <!-- End Navigation -->
+
+    </header>
+    <!-- End Header -->
