@@ -1,7 +1,7 @@
-baseURL = "https://proyekpro.com"
+# baseURL = "https://hostingtekno.com/dev/ammara"
+baseURL = "https://ammara.co.id"
 languageCode = "id-ID"
-title = "B2B Indonesia, Jual Beli Bahan Bangunan, Supplier Elektrikal, HVAC, Dll."
 assetDir = "static"
 paginate = 10
 [taxonomies]
-    tag="#"
+    tag="tag"
