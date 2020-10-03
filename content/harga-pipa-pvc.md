@@ -10,17 +10,8 @@ description: ""
 
 {{<pipa-pvc/harga-sni-supralon>}}
 
-- Harga **belum** termasuk PPN 10%
-- Stok dan harga **tidak mengikat** dan **dapat berubah sewaktu-waktu**
-- Franco Surabaya
-- Berlaku sejak 2 Desember 2019
-
 --------
- 
+
 ## Harga Pipa PVC SNI Vinilon
 
 {{<pipa-pvc/harga-sni-vinilon>}}
-
-- Harga **belum** termasuk PPN 10%
-- Stok dan harga **tidak mengikat** dan **dapat berubah sewaktu-waktu**
-- Franco Cileungsi, Bogor
